@@ -1,0 +1,10 @@
+<div class="search-container">
+    <ion-searchbar 
+      [(ngModel)]="searchTerm" 
+      (ionInput)="filterServices()"
+      placeholder="Buscar servicios..."
+      animated="true"
+      debounce="300">
+    </ion-searchbar>
+  </div>
+  

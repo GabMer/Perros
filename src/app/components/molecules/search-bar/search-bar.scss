@@ -1,0 +1,11 @@
+.search-container {
+  padding: 10px 16px;
+  
+  ion-searchbar {
+    --border-radius: 8px;
+    --background: var(--ion-color-light);
+    --placeholder-color: var(--ion-color-medium);
+    --icon-color: var(--ion-color-medium);
+    font-size: 14px;
+  }
+}
